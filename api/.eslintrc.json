@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "strict": ["error", "never"]
+  },
+  "globals": {
+    "db": "readonly",
+    "common": "readonly"
+  }
+}
